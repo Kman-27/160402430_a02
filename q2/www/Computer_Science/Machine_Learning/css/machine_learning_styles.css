@@ -1,0 +1,29 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+body {
+  background-color: #8b9dc3;
+}
+
+#p2 {
+  color:black;
+  font-family: helvetica;
+}
+
+#p1 {
+  color:green;
+  font-family: helvetica;
+}
+
+.breadcrumbs {
+  padding: 10px;
+  list-style: none;
+}
+
+/*makes listed items adjacent to one another*/
+.breadcrumbs li{
+  display: inline;
+  font-size: 18px;
+}
