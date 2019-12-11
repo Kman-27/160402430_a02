@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+.donut-container {
+  background-image: url("../img/homepage_donut.jpg");
+  height: 600px;
+  margin-top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+
+.donut-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Lilita One', cursive;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1{
+  border-radius: 10px;
+  background-color: white;
+  color: orange;
+  border: 4px solid orange;
+}
+
+
+.button1:hover {
+  background-color: #FFA500;
+  color: white;
+  text-decoration: none;
+}
+
+.button2{
+  border-radius: 10px;
+  background-color: white;
+  color: #43210a;
+  border: 4px solid #43210a;
+}
+
+.button2:hover{
+  background-color: #43210a;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.bottom-container{
+  position: relative;
+  margin: 1px;
+
+}
+
+.image-left{
+  float:left;
+}
+
+.image-left img{
+  display: block;
+  width:100%;
+}
+
+
+.right-container{
+  position: absolute;
+  top:20px;
+  left: 900px;
+  text-align: left;
+  font-size: 22px;
+  margin:76px 40px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.container{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: #f5d4bc;
+}
+
+.carousel-inner{
+  width:100%;
+}
+
+.carousel-caption{
+  position: relative;
+  top: 40px;
+}
+
+
+/*choco_loco and sprinkle_dinkle pg */
+
+
+.choco-wrapper{
+  width:100%;
+  height:500px;
+  background-color: powderblue;
+  margin: 0 auto;
+}
+
+
+.choco-wrapper-left img{
+  width:100%;
+}
+
+.choco-wrapper-left{
+  float:left;
+  width:50%;
+  margin: 5%;
+  margin-left: 5px;
+}
+
+
+.choco-wrapper-right{
+  text-align: center;
+  margin-top: 10%;
+  padding-right: 5%;
+  float:right;
+}
+
+.choco-wrapper-right p{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.choco-wrapper-right h1{
+  font-family: 'Lilita One', cursive;
+
+}
+
+.choco-wrapper-right .button1{
+  margin-top: 10%;
+}
+
+.sprinkle-wrapper{
+  width:100%;
+  height:500px;
+  background-color: #ffc0cb;
+  margin: 0 auto;
+}
+
+.sprinkle-wrapper-left img{
+  width:100%;
+}
+
+.sprinkle-wrapper-left{
+  float:left;
+  width:50%;
+  margin: 5%;
+  margin-left: 5px;
+}
+
+
+.sprinkle-wrapper-right{
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 5%;
+
+}
+
+.sprinkle-wrapper-right p{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.sprinkle-wrapper-right h1{
+  font-family: 'Lilita One', cursive;
+
+}
+
+.sprinkle-wrapper-right .button2{
+  margin-top:10%;
+}
+
+
+/*responsive for phones*/
+@media only screen and (max-width:375 ) {
+    /*homepage*/
+.donut-container{
+  width:100%;
+}
+
+
+  /*chocoloco and sprinkledinkle */
+
+.choco-wrapper{
+  width:375px;
+}
+
+.choco-wrapper-left{
+  float:none;
+  width:100%;
+  margin: 0 auto;
+}
+
+.choco-wrapper-left img{
+  width:100px;
+}
+
+.sprinkle-wrapper-left img{
+  width:100%;
+}
+
+.sprinkle-wrapper-left{
+  float:none;
+  display: block;
+  width:100%;
+}
+
+
+
+}
+
+
+
+
+
+/*responsive for note__ */
+@media only screen and (max-width: 768) {
+  .donut-container{
+    width:100%;
+  }
+
+
+    /*chocoloco and sprinkledinkle */
+
+  .choco-wrapper{
+    width:375px;
+  }
+
+  .choco-wrapper-left{
+    float:none;
+    width:100%;
+    margin: 0 auto;
+  }
+
+  .choco-wrapper-left img{
+    width:100px;
+  }
+
+  .sprinkle-wrapper-left img{
+    width:100%;
+  }
+
+  .sprinkle-wrapper-left{
+    float:none;
+    display: block;
+    width:100%;
+  }
+}
